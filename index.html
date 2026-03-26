@@ -101,7 +101,7 @@ nav a:hover::after{width:100%}
 @keyframes growL{to{transform:scaleX(1)}}
 @keyframes slideR{from{opacity:0;transform:translateX(-20px)}to{opacity:1;transform:none}}
 
-.hero-h1{font-family:var(--font-d);font-size:clamp(3rem,6.5vw,6.5rem);font-weight:400;line-height:1.05;color:var(--brown-deep);margin-bottom:28px}
+.hero-h1{font-family:var(--font-d);font-size:clamp(3rem,3.9vw,6.5rem);font-weight:300;line-height:1.05;color:var(--brown-deep);margin-bottom:28px}
 .hero-h1 .ln{display:block;overflow:hidden}
 .hero-h1 .ln span{display:block;transform:translateY(105%);animation:lnUp .9s var(--ease-o) forwards}
 .hero-h1 .ln:nth-child(1) span{animation-delay:.3s}
@@ -200,13 +200,13 @@ nav a:hover::after{width:100%}
 .del-text strong{display:block;font-size:.86rem;font-weight:500;color:var(--brown-deep)}
 .del-text span{font-size:.78rem;color:var(--text3)}
 .servicos-visual{position:relative}
-.svc-quote-card{background:var(--brown);border-radius:16px;padding:44px 40px;color:var(--white);position:relative;overflow:hidden;box-shadow:var(--shadow-lg)}
+.svc-quote-card{background:var(--brown);border-radius:28px;padding:50px 50px;color:var(--white);position:relative;overflow:hidden;box-shadow:var(--shadow-lg)}
 .svc-quote-card::before{content:'';position:absolute;top:-40px;right:-40px;width:180px;height:180px;border-radius:50%;background:rgba(255,255,255,.05)}
 .svc-quote-card::after{content:'';position:absolute;bottom:-30px;left:-30px;width:120px;height:120px;border-radius:50%;background:rgba(255,255,255,.04)}
 .svc-quote-card p{font-family:var(--font-d);font-size:1.3rem;font-style:italic;line-height:1.6;position:relative;z-index:1;margin-bottom:20px}
 .svc-quote-card cite{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(253,250,247,.55);position:relative;z-index:1}
 .svc-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px;position:relative;z-index:1}
-.svc-tag{padding:5px 13px;border:1px solid rgba(255,255,255,.2);border-radius:50px;font-size:.68rem;letter-spacing:.08em;color:rgba(253,250,247,.7)}
+.svc-tag{padding:5px 13px;border:1px solid rgba(255,255,255,.2);border-radius:50px;font-size:1.3rem;letter-spacing:.08em;color:rgba(253,250,247,.7)}
 
 /* ── NÚMEROS ── */
 #numeros{background:var(--brown);padding:90px 0;position:relative;overflow:hidden}
@@ -410,7 +410,7 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
   <div class="container">
     <div class="header-inner">
       <a href="#" class="logo-slot">
-        <img src="./logo.png" alt="PAIVA Assessoria & Marketing"/>
+        <img src="./img/logo.png" alt="PAIVA Assessoria & Marketing"/>
       </a>
       <nav>
         <a href="#sobre">Sobre</a>
@@ -469,22 +469,20 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
     <div class="rv-l">
       <div class="about-card">
         <div class="big-q">"</div>
-        <blockquote>Entregamos soluções completas.</blockquote>
+        <blockquote>"Paixão por conectar, compromisso em entregar. Na PAIVA, cada campanha é tratada com a dedicação de quem sabe que o
+        sucesso do cliente é o nosso melhor resultado."</blockquote>
         <cite>— PAIVA Assessoria & Marketing</cite>
       </div>
       <div class="accent-num"><strong>4+</strong><span>Anos no digital</span></div>
     </div>
     <div class="rv-r d2">
       <p class="s-label">Quem somos</p>
-      <h2 class="s-title">Uma assessoria especializada em <em>conectar marcas</em> a influenciadores</h2>
-      <p class="s-lead">A PAIVA Assessoria e Marketing é especializada em conectar marcas a influenciadores qualificados, criando campanhas estratégicas que geram resultados reais.</p>
+      <h2 class="s-title">Sua marca merece parcerias que <em>geram autoridade.</em></h2>
+      <p class="s-lead">Na PAIVA Assessoria e Marketing, selecionamos influenciadores estrategicamente alinhados aos seus valores. Mais do que
+      simples conexões, construímos pontes sólidas para campanhas que trazem retorno mensurável e fortalecem sua presença de
+      mercado.</p>
       <p class="s-lead" style="margin-top:14px"></p>
       <div class="values" style="margin-top:28px">
-        <div class="val rv d1"><div class="val-dot"></div>Influencers validados</div>
-        <div class="val rv d2"><div class="val-dot"></div>Público real e engajado</div>
-        <div class="val rv d3"><div class="val-dot"></div>Estratégia personalizada</div>
-        <div class="val rv d4"><div class="val-dot"></div>Resultados mensuráveis</div>
-        <div class="val rv d3"><div class="val-dot"></div>Acompanhamento total</div>
       </div>
     </div>
   </div>
@@ -557,8 +555,6 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
     </div>
     <div class="servicos-visual rv-r d2">
       <div class="svc-quote-card">
-        <p>"Conectamos marcas e influenciadores com estratégia — gerando visibilidade, engajamento e vendas reais."</p>
-        <cite>— PAIVA Assessoria & Marketing</cite>
         <div class="svc-tags">
           <span class="svc-tag">Reels</span>
           <span class="svc-tag">Stories</span>
@@ -578,29 +574,13 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
   <div class="container">
     <div class="stats-grid">
       <div class="stat-item rv d1"><span class="stat-num"><span class="count" data-target="2">0</span><span class="acc">M+</span></span><span class="stat-label">Visualizações geradas</span></div>
-      <div class="stat-item rv d2"><span class="stat-num"><span class="count" data-target="40">0</span><span class="acc">K+</span></span><span class="stat-label">Seguidores alcançados</span></div>
+      <div class="stat-item rv d2"><span class="stat-num"><span class="count" data-target="100">0</span><span class="acc">K+</span></span><span class="stat-label">Seguidores alcançados</span></div>
       <div class="stat-item rv d3"><span class="stat-num"><span class="count" data-target="100">0</span><span class="acc">%</span></span><span class="stat-label">Comprometimento</span></div>
     </div>
   </div>
 </section>
 
 <div class="divider"></div>
-
-<!-- ══════ DIFERENCIAIS ══════ -->
-<section id="diferenciais" class="section">
-  <div class="container">
-    <div style="text-align:center;margin-bottom:56px">
-      <p class="s-label rv" style="justify-content:center">Nosso diferencial</p>
-      <h2 class="s-title rv d1" style="text-align:center">Por que escolher a <em>Paiva Assessoria & Marketing</em></h2>
-    </div>
-    <div class="diff-grid">
-      <div class="diff rv"><div class="diff-n">01</div><div><h4>Perfis Validados</h4><p>Trabalhamos somente com influenciadores que possuem público real e engajado — nada de seguidores falsos ou métricas infladas.</p></div></div>
-      <div class="diff rv d1"><div class="diff-n">02</div><div><h4>Conteúdo Testado</h4><p>Cada influencer no nosso portfólio já tem resultados anteriores comprovados, com conteúdo que converte para marcas parceiras.</p></div></div>
-      <div class="diff rv d2"><div class="diff-n">03</div><div><h4>Agilidade Total</h4><p>Nossos influencers já estão disponíveis e prontos para campanhas — menos burocracia, mais resultado no menor tempo possível.</p></div></div>
-      <div class="diff rv d3"><div class="diff-n">04</div><div><h4>Suporte Completo</h4><p>Briefing, cronograma e acompanhamento do início ao fim. Você não precisa se preocupar com nada — a PAIVA cuida de tudo.</p></div></div>
-    </div>
-  </div>
-</section>
 
 <div class="divider"></div>
 
@@ -619,7 +599,7 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
        <a href="https://www.instagram.com/nicflorentino/" target="_blank" style="text-decoration:none;color:inherit">
       <div class="inf-card rv">
         <div class="inf-photo">
-            <img src="./nic foto.jpg" alt="@nicflorentino"/>
+            <img src="./img/nic foto.jpg" alt="@nicflorentino"/>
 
           <div class="inf-photo-placeholder">
             <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -650,7 +630,7 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
       <div class="inf-card rv d1">
         <div class="inf-photo">
 
-            <img src="./iquiara.jpeg" alt="@iquiaraa"/>
+            <img src="./img/iquiara.jpeg" alt="@iquiaraa"/>
 
           <div class="inf-photo-placeholder">
             <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -681,7 +661,7 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
       <div class="inf-card rv d2">
         <div class="inf-photo">
 
-            <img src="./mariaeduarda.jpeg" alt="@dudammatoss"/>
+            <img src="./img/mariaeduarda.jpeg" alt="@dudammatoss"/>
 
           <div class="inf-photo-placeholder">
             <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -713,7 +693,7 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
       <div class="inf-card rv d3">
         <div class="inf-photo">
 
-            <img src="./thiagobarcelos.jpeg" alt="@barccelos"/>
+            <img src="./img/thiagobarcelos.jpeg" alt="@barccelos"/>
 
           <div class="inf-photo-placeholder">
             <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -728,7 +708,7 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
           <div class="inf-stats">
             <div class="inf-stat"><strong>15,3K</strong><span>Seguidores</span></div>
             <div class="inf-stat"><strong>44,9K</strong><span>Visualizações</span></div>
-            <div class="inf-stat"><strong>—</strong><span>Alcance</span></div>
+            <div class="inf-stat"><strong>42,3K</strong><span>Alcance</span></div>
           </div>
           <div class="inf-tags">
             <span class="inf-tag">Moda</span><span class="inf-tag">Comida</span>
@@ -745,7 +725,7 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
             <div class="inf-card rv d3">
                 <div class="inf-photo">
             
-                    <img src="./carol.jpeg" alt="@eu.carollimah" />
+                    <img src="./img/carol.jpeg" alt="@eu.carollimah" />
             
                     <div class="inf-photo-placeholder">
                         <svg viewBox="0 0 24 24">
@@ -780,7 +760,7 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
                         <div class="inf-card rv d3">
                           <div class="inf-photo">
                         
-                            <img src="./egidio.jpeg" alt="@egiih" />
+                            <img src="./img/egidio.jpeg" alt="@egiih" />
                         
                             <div class="inf-photo-placeholder">
                               <svg viewBox="0 0 24 24">
@@ -817,7 +797,7 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
                                     <div class="inf-card rv d3">
                                       <div class="inf-photo">
                                     
-                                        <img src="./renata.jpeg" alt="@renataporto2212" />
+                                        <img src="./img/renata.jpeg" alt="@renataporto2212" />
                                     
                                         <div class="inf-photo-placeholder">
                                           <svg viewBox="0 0 24 24">
@@ -844,42 +824,6 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
                                         </div>
                                       </div>
                                     </div>
-                                    
-                              <!-- ─── INFLUENCER 8 — andrelbarbosa_oficial ─── -->
-                              <a href="https://www.instagram.com/andrelbarbosa_oficial/" target="_blank" style="text-decoration:none;color:inherit">
-                                <div class="inf-card rv d3">
-                                  <div class="inf-photo">
-                              
-                                    <img src="./andre.jpg" alt="@andrelbarbosa_oficial" />
-                              
-                                    <div class="inf-photo-placeholder">
-                                      <svg viewBox="0 0 24 24">
-                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                                        <circle cx="12" cy="7" r="4" />
-                                      </svg>
-                                      <span></span>
-                                    </div>
-                                    <div class="inf-overlay"></div>
-                                    <div class="inf-handle">@andrelbarbosa_oficial</div>
-                                  </div>
-                                  <div class="inf-body">
-                                    <div class="inf-name">André L. Barbosa</div>
-                                    <div class="inf-niche">Influenciador · Modelo</div>
-                                    <div class="inf-stats">
-                                      <div class="inf-stat"><strong>10,2K</strong><span>Seguidores</span></div>
-                                      <div class="inf-stat"><strong>79,4K</strong><span>Visualizações</span></div>
-                                      <div class="inf-stat"><strong>8,1K</strong><span>Alcance</span></div>
-                                    </div>
-                                    <div class="inf-tags">
-                                      <span class="inf-tag">Musculação</span><span class="inf-tag">Saúde</span>
-                                      <span class="inf-tag">Nutrição</span><span class="inf-tag">Conscientização</span>
-                                      <span class="inf-tag">Modelo</span>
-                                    </div>
-                                  </div>
-                                </div>
-                                  
-    </div>
-  </div>
 
   
 </section>
@@ -928,7 +872,7 @@ footer{background:var(--brown-deep);padding:60px 0 34px}
     <div class="footer-inner">
       <div class="footer-brand">
         <div class="footer-logo-slot">
- <img src="./logo.png" alt="PAIVA"/>
+ <img src="./img/logo.png" alt="PAIVA"/>
         </div>
         <p>Conectando marcas e influenciadores com estratégia. São José dos Campos – SP.</p>
         <div class="f-socials">
